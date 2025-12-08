@@ -2,22 +2,22 @@
 
 This repository contains supplementary materials for the arXiv preprint [Regular celestial amplitudes](https://arxiv.org/abs/2512.05882). Below is a brief overview of the contents:
 
-* `bin/gluonRCA4.mx` — four-point, stripped, mass-regularized celestial amplitudes of gluons at tree level in Yang–Mills theory.
+* `bin/gluonRCA4.mx` - four-point, stripped, mass-regularized celestial amplitudes of gluons at tree level in Yang-Mills theory.
 
-* `bin/vertexGraviton3.mx` — three-point graviton vertex in Einstein gravity.
+* `bin/vertexGraviton3.mx` - three-point graviton vertex in Einstein gravity.
 
 For reproducibility and security, we also provide source code so that users can regenerate the binaries locally.
 
 ## Documentation
 
 * `gluonRCA4[channel, spincolor, tachyonsign]["Master"|"Polynomial"]`
-    * `channel` — scattering channel: `"MOOO-d"`, `"MOOO-s"`, or `"TOOO-s"`.
+    * `channel` - scattering channel: `"MOOO-d"`, `"MOOO-s"`, or `"TOOO-s"`.
 
-        * `tachyonsign` — tachyon sign `"+"` or `"-"` (only if `channel` is `"TOOO-s"`).
+        * `tachyonsign` - tachyon sign `"+"` or `"-"` (only if `channel` is `"TOOO-s"`).
 
-    * `spincolor` — spin and color configuration.
+    * `spincolor` - spin and color configuration.
 
-    * `"Master"|"Polynomial"` — master integral or polynomial part.
+    * `"Master"|"Polynomial"` - master integral or polynomial part.
 
     * Example usage
 
